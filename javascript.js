@@ -1,6 +1,10 @@
 var canvas = document.getElementById('canvas');
 var c = canvas.getContext('2d');
 
+var settings = {
+	
+}
+
 window.onload = function() {
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
